@@ -25,7 +25,7 @@ import com.example.demo.model.Persona;
 
 import com.example.demo.repository.PersonaRepository;
 
-@CrossOrigin(origins= {"http://localhost:4200"})
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class PersonaRest {
