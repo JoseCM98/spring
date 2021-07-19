@@ -29,7 +29,7 @@ import com.example.demo.repository.PersonaRepository;
 @RestController
 @RequestMapping("/api")
 public class PersonaRest {
-	private static final long serialVersionUID = 1L;
+	
 
 	@Autowired
 	PersonaRepository personaRepository; // Repositorio es el encargado de Manipular los datos
